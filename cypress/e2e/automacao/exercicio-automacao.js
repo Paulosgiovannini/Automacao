@@ -13,5 +13,7 @@ describe('add a product to cart', () => {
     cy.get('#checkOutPopUp').click()
     cy.get('#userCart').should('be.visible')
     //esse cenário contempla e valida todos os cenários solicitados no exercício, desde a validacao da pesquisa de um produto até a consulta dele no checkout
+    //por favor ignorem a falta da estrutura e as configs vindo junto aqui do cypress, eu formatei a máquina recentemente entao tive que instalar tudo do zero para fazer esse teste
+    //de automacao, entao só puxei o template básico que vem de comeco e adaptei para o caso de teste solicitado. quaisque dúvidas só entrar em contato
   })
 })
